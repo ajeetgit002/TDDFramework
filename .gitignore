@@ -1,5 +1,8 @@
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
-/src/config/auth.json
+dist/
+build/
+reports/
+.env
+.env.local
+.DS_Store
+*.log
