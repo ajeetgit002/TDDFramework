@@ -3,8 +3,20 @@
     "target": "ESNext",
     "module": "CommonJS",
     "moduleResolution": "Node",
+
+    "baseUrl": ".",
+
+    "paths": {
+      "@fixtures/*": ["src/fixtures/*"],
+      "@pages/*": ["src/pages/*"],
+      "@constants/*": ["src/constants/*"],
+      "@utils/*": ["src/utils/*"]
+    },
+
     "types": ["node", "@playwright/test"],
+
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "esModuleInterop": true
   }
 }

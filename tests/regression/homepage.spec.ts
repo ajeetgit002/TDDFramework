@@ -1,5 +1,5 @@
-import { test, expect } from '../../fixtures/fixtures';
-import { URLS } from '../../constants/config';
+import { test, expect } from '@fixtures/fixtures';
+import { URLS } from '@constants/config';
 
 test('regression: homepage title validation', async ({ homePage }) => {
   await homePage.goto(URLS.playwright);
