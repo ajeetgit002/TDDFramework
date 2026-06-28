@@ -7,7 +7,7 @@ import { Page, expect } from '@playwright/test';
 export class PlaywrightUtils {
     private page: Page;
     
-    // Default timeouts
+    // Default timeouts 
     private readonly DEFAULT_TIMEOUT = 60000; // 30 seconds
     private readonly ELEMENT_TIMEOUT = 60000; // 10 seconds
     private readonly NETWORK_TIMEOUT = 60000; // 60 seconds
